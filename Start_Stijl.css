@@ -1,0 +1,32 @@
+#title {
+    margin: 0%;
+    display: flex;
+    height: 12%;
+    width: 100%;
+    background-color: gold;
+    justify-content: center;
+}
+#nav {
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 6%;
+    width: 100%;
+    background-color: lightyellow;
+}
+html ,body {
+    height: 100%;
+    width: 100%;
+}
+#box {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.info{
+    padding: 10%;
+    margin: 5%;
+    background-color: brown;
+    width: 12%;
+    height: 25%;
+}
