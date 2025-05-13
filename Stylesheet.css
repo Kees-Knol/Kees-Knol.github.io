@@ -5,7 +5,7 @@
     width: 100%;
     background-color: gold;
     justify-content: center;
-    position: fixed;
+    position: sticky;
     top: 0%;
     
 }
@@ -16,7 +16,7 @@
     height: 6%;
     width: 100%;
     background-color: lightyellow;
-    position: fixed;
+    position: sticky;
     top: 10%;
 }
 #copyright {
@@ -25,23 +25,43 @@
     width: 100%;
     display: flex;
     position: fixed;
-    bottom: 3%;
+    bottom: 2%;
     margin: 0%;
+    font-size: small;
     justify-content: space-evenly;
 }
 html ,body {
     height: 100%;
     width: 100%;
+    margin: 0%;
 }
 #box {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
 }
-.info{
+.info {
     padding: 10%;
     margin: 5%;
-    background-color: brown;
+    background-color: rgb(189, 90, 10);
     width: 12%;
     height: 25%;
+}
+#ProdBox {
+    margin: 8%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.Products {
+    position: relative;
+    margin: 4%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    border: gold;
+    height: 30%;
+    width: 15%;
+    background-color: aqua;
 }
