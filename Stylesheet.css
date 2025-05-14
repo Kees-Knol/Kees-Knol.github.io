@@ -60,8 +60,12 @@ html ,body {
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
-    border: gold;
+    border: 1px solid gold;
+    background-color: lightgoldenrodyellow;
     height: 30%;
     width: 15%;
-    background-color: aqua;
+}
+.Linkingsets {
+    color: black;
+    text-decoration: none;
 }
