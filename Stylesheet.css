@@ -79,7 +79,7 @@ html ,body {
     margin: 3%;
     height: 10%;
     width: 80%;
-    background-color: saddlebrown;
+    border: 1px solid black;
 }
 .CartItem {
     display: flex;
