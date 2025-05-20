@@ -69,3 +69,23 @@ html ,body {
     color: black;
     text-decoration: none;
 }
+#CartBoxGreater {
+    margin: 8%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.CartBoxLesser {
+    margin: 3%;
+    height: 10%;
+    width: 80%;
+    background-color: saddlebrown;
+}
+.CartItem {
+    display: flex;
+    justify-content: left;
+}
+.CartAmount {
+    display: flex;
+    justify-content: right;
+}
