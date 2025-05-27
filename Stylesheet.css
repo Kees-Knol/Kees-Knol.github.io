@@ -89,3 +89,13 @@ html ,body {
     display: flex;
     justify-content: right;
 }
+#atsign {
+    color: #f3a701f3;
+}
+#AVO {
+    text-decoration: none;
+}
+.CentAll {
+    display: flex;
+    justify-content: center;
+}
