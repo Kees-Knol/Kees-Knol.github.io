@@ -41,12 +41,14 @@ html ,body {
     justify-content: space-around;
     justify-content: center;
 }
-.info {
-    padding: 10%;
+#InfTek {
+    padding: 3%;
     margin: 5%;
-    background-color: rgb(189, 90, 10);
+    background-color: rgba(189, 91, 10, 0.623);
     width: 12%;
     height: 25%;
+    border-radius: 2%;
+    font-size: large;
 }
 #ProdBox {
     margin: 8%;
@@ -70,24 +72,32 @@ html ,body {
     text-decoration: none;
 }
 #CartBoxGreater {
-    margin: 8%;
+    margin: 4%;
     display: flex;
     flex-flow: column;
     justify-content: center;
 }
 .CartBoxLesser {
+    display: flex;
     margin: 3%;
     height: 10%;
     width: 80%;
     border: 1px solid black;
+    text-align: center;
+    justify-content: space-evenly;
 }
 .CartItem {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
+    width: 40%;
 }
 .CartAmount {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+}
+.CartMoney {
+    display: flex;
+    justify-content: flex-end;
 }
 #atsign {
     color: #f3a701f3;
@@ -105,4 +115,22 @@ html ,body {
     height: 100%;
     width: 100%;
     margin: 0%;
+}
+#OOMain {
+    display: flex;
+    justify-content: center;
+}
+#InfPic {
+    padding: 3%;
+    margin: 5%;
+    width: 12%;
+    height: 25%;
+    border-radius: 2%;
+    font-size: large;
+}
+
+.Pm {
+    display: flex;
+    height:80%;
+    width: 40%;
 }
