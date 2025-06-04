@@ -1,4 +1,4 @@
-#title {
+#title /*dit is alles voor het logo */{
     margin: 0%;
     display: flex;
     height: 10%;
@@ -6,10 +6,9 @@
     background-color: gold;
     justify-content: center;
     position: sticky;
-    top: 0%;
-    
+    top: 0%;  
 }
-#nav {
+#nav { /*Navigatie balk geordend + kleur*/
     margin: 0%;
     display: flex;
     justify-content: space-evenly;
@@ -19,7 +18,7 @@
     position: sticky;
     top: 10%;
 }
-#copyright {
+#copyright { /*Bevat alle styling voor de copyright bar*/
     margin: 0%;
     height: 3%;
     width: 100%;
@@ -30,18 +29,18 @@
     font-size: small;
     justify-content: space-evenly;
 }
-html ,body {
+html ,body { /*Zorgt dat de boddy geen stukken wit overheeft*/
     height: 100%;
     width: 100%;
     margin: 0%;
 }
-#box {
+#boxIndex { /*Bevat ordent de informatie en het plaatje op de startpagina*/
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     justify-content: center;
 }
-#InfTek {
+#InfTek { /*Styling beginpagina tekst*/
     padding: 3%;
     margin: 5%;
     background-color: rgba(189, 91, 10, 0.623);
@@ -50,13 +49,13 @@ html ,body {
     border-radius: 2%;
     font-size: large;
 }
-#ProdBox {
+#ProdBox { /*Bevat alle products*/
     margin: 8%;
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
 }
-.Products {
+.Products { /*tag omn de producten allemaal te stylen*/
     position: relative;
     margin: 4%;
     display: flex;
@@ -67,17 +66,17 @@ html ,body {
     height: 30%;
     width: 15%;
 }
-.Linkingsets {
+.Linkingsets { /*Verwijdert de underlining en maakt de links in de nav bar zwart*/
     color: black;
     text-decoration: none;
 }
-#CartBoxGreater {
+#CartBoxGreater { /*Ordert alle CartBoxLessers*/
     margin: 4%;
     display: flex;
     flex-flow: column;
     justify-content: center;
 }
-.CartBoxLesser {
+.CartBoxLesser { /*zet de producten in de winkelwagen in de correcte volgorde*/
     display: flex;
     margin: 3%;
     height: 10%;
@@ -86,41 +85,37 @@ html ,body {
     text-align: center;
     justify-content: space-evenly;
 }
-.CartItem {
+.CartItem { /*zorgt dat de naam van het product helemaal links staat*/
     display: flex;
     justify-content: flex-start;
     width: 40%;
 }
-.CartAmount {
+.CartMoney { /*Zet het bedrag helemaal rechts*/
     display: flex;
     justify-content: flex-end;
 }
-.CartMoney {
-    display: flex;
-    justify-content: flex-end;
-}
-#atsign {
+#atsign { /*geeft de email een gele kleur*/
     color: #f3a701f3;
 }
-#AVO {
+#AVO { /*geeft aan dat de algemene voorwaarden in de helpdesk geen onderlijning heeft*/
     text-decoration: none;
 }
-.CentAll {
+#CentAll { /*Zorgt dat de informatie in hert midden staat*/
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
 }
-.ProductImg {
+.ProductImg { /*Geeft stijling aan de plaatjes bij producten*/
     height: 100%;
     width: 100%;
     margin: 0%;
 }
-#OOMain {
+#OOMain { /*Zet de informatie van over ons in het midden*/
     display: flex;
     justify-content: center;
 }
-#InfPic {
+#InfPic { /*geeft styling aan het plaatje op de startpagina*/
     padding: 3%;
     margin: 5%;
     width: 12%;
@@ -128,8 +123,7 @@ html ,body {
     border-radius: 2%;
     font-size: large;
 }
-
-.Pm {
+.Pm { /*Geeft styling aan de plus en min van de winkelwagen*/
     display: flex;
     height:80%;
     width: 40%;
